@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.navbar1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+    background-color: #00bcd4;
+    height: 50px;
+}
+
+.nav2{
+    
+    margin-left: 520px;
+}
+
+.nav1{
+    margin-left: -10px;
+}
+
+.icn1{
+    margin-top: 2px;
+    margin-left: -1px;
+
+}
+
+/* NAV2  */
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: black;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav li{
+    position: relative;
+}
+
+.nav a{
+    white-space: nowrap;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+   
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav li:hover a{
+    color: #9b50cc;
+}
+
+.nav-link::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #9b50cc;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-link:hover:before{
+    visibility: visible;
+    width: 70%;
+}
+
+/* phonesymbol */
+.callall{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    padding-left: 20px;
+    color: #9b50cc;
+}
+
+.call-icon{
+   font-size: 26px;
+   /* padding-left: 200px; */
+  
+}
+
+.call-txt{
+    
+}
